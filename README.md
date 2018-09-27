@@ -2,7 +2,7 @@
 
 - Applied Predictive Modeling (Max Kuhn & Kjell Johnson)
 
-- 챕터 별 내용 및 코드 정리 repo
+- 각 챕터 별 내용과 챕터 마지막에 있는 Computing에 사용되는 코드 종합 정리
 
 - 연습 문제 풀이
 
