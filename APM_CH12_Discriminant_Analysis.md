@@ -19,7 +19,7 @@
 
 - 다음과 같은 형태로 사건 확률 함수를 생성 (모델 항목에 대한 시그모이드 함수 : 확률 추정 값을 0과 1사이로 제한)
 
-![logistic_Eq.PNG](attachment:logistic_Eq.PNG)
+![logistic_Eq.PNG](https://user-images.githubusercontent.com/40160683/46326493-ee669000-c637-11e8-9bf3-f53ede1aa1cc.PNG)
 
 - 로지스틱 회귀 모델에서 비선형성에 대응하기위해 모델항목을 인수화
 
@@ -35,7 +35,7 @@
 
 - 웰치 : 총 오분류 확률을 최소화 하는 접근 방법(클래스 확률과 변수의 다분량 분포를 사용)
 
-![LDA_1.PNG](attachment:LDA_1.PNG)
+![LDA_1.PNG](https://user-images.githubusercontent.com/40160683/46326494-ee669000-c637-11e8-895b-696520c7a6a1.PNG)
 
 - 단일 변수와 2개의 클래스를 갖는 경우 두 개의 클래스에 대해 예측 변수 값이 주어지면 클래스에 대한 확률에 따라 분류를 진행한다.
 
@@ -45,7 +45,7 @@
 
     - 두 범주의 평균이 서로 멀도록, 그 분산이 작도록 데이터를 사영(Projection)
     
-![LDA_2.PNG](attachment:LDA_2.PNG)
+![LDA_2.PNG](https://user-images.githubusercontent.com/40160683/46326495-ee669000-c637-11e8-9916-07b470970ac0.PNG)
 
 - 데이터가 예측 변수보다 샘플의 수가 많고, 예측 변수는 독립적이다.
 
@@ -92,7 +92,7 @@
 
 - 엘라스틱 넷과 마찬가지로 능형회귀와 라소 벌점을 동시에 사용하지만 구조가 다소 다르다.
 
-![penalty.PNG](attachment:penalty.PNG)
+![penalty.PNG](https://user-images.githubusercontent.com/40160683/46326496-eeff2680-c637-11e8-9438-622c14d9356e.PNG)
 
 
 - 벌점 기법은 LDA 모델에도 적용 가능 하다 : 유연 판별 분석 (Flexible discriminant analysis, FDA)
@@ -105,6 +105,6 @@
 
 - 각 클래스에 대한 훈련 데이터의 각 클래스 별 예측 변수의 평균값을 구해 데이터 중심값으로 사용
 
-![PAM.PNG](attachment:PAM.PNG)
+![PAM.PNG](https://user-images.githubusercontent.com/40160683/46326497-eeff2680-c637-11e8-88f4-b11f31322281.PNG)
 
 - 클래스 중심을 전체 중심에 가깝게 축소시키는 방법 : 꽃 받침 너비의 경우 virginica 중심이 전체 중심값에 도달하면 꽃받침 너비는 versicolor나 setosa인 꽃 분류에만 사용 -> 결과적으로 모델 훈련 과정에서 특징 선택이 동시에 수행된다.
